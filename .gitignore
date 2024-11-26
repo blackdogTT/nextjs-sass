@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Logs
+logs/
+*.log
+*.gz
+*.out
+
+# Build output
+.next/
+out/
+
+# Static files cache (optional)
+public/static/cache/
+
+# Vercel deployment
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Next.js automatically generated files
+.next/cache/
+.next/server/pages/**/*.js.nft.json
+.next/server/pages/**/*.js.build.json
+
+# Editor and OS specific files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+Thumbs.db
+desktop.ini
+
+# Test coverage
+coverage/
+
+# Linting and formatting
+eslintcache
+.prettiercache
+
+# Typescript
+*.tsbuildinfo
+
+# Optional: Ignore generated storybook files
+storybook-static/
+
+# Optional: Ignore custom output folder (if specified in next.config.js)
+custom-output-folder/
